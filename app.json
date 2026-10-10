@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Scan3D",
+    "slug": "scan3d",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.crbsolutionsinistre.scan3d",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Scan3D utilise la caméra pour scanner des objets en 3D.",
+        "UIRequiredDeviceCapabilities": [
+          "arkit"
+        ],
+        "UIFileSharingEnabled": true,
+        "LSSupportsOpeningDocumentsInPlace": true,
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "static",
+      "bundler": "metro",
+      "name": "Scan3D",
+      "shortName": "Scan3D",
+      "themeColor": "#0b1220",
+      "backgroundColor": "#0b1220"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "scan3d",
+    "experiments": {
+      "baseUrl": "/Scan3d"
+    }
+  }
+}
