@@ -2,8 +2,8 @@
 
 Deux versions, avec le même code :
 
-- **Favori web** (choix d'Anthony, 10 octobre 2026 : on commence par celle-ci). S'ouvre dans Safari et s'ajoute à
-  l'écran d'accueil, comme CAMO 360. Pas d'App Store, rien à payer à Apple. Voir « Version favori web » plus bas.
+- **Favori web** (on commence par celle-ci). S'ouvre dans Safari et s'ajoute à
+  l'écran d'accueil. Pas d'App Store, rien à payer à Apple. Voir « Version favori web » plus bas.
 - **App iPhone** (pour plus tard). Nuage de points en direct avec ARKit. Voir la suite de ce guide.
 
 ## Version favori web
@@ -37,10 +37,9 @@ npm run build:web
 
 Le site est dans le dossier `dist`. Il doit être servi en **https** (sinon, pas de caméra dans Safari).
 
-### En ligne : GitHub Pages (choix d'Anthony, 10 octobre 2026)
+### En ligne : GitHub Pages
 
-Scan3D n'a aucune donnée personnelle : pas de connexion, pas d'Azure, pas de serveur. Le dépôt `Scan3d` est séparé de
-CAMO 360. À chaque envoi sur `main`, `.github/workflows/pages.yml` construit le site et le met en ligne tout seul.
+Scan3D n'a aucune donnée personnelle : pas de connexion, pas d'Azure, pas de serveur. À chaque envoi sur `main`, `.github/workflows/pages.yml` construit le site et le met en ligne tout seul.
 
 - Adresse : https://camo360-app.github.io/Scan3d/
 - Sur l'iPhone : ouvrir l'adresse dans Safari → bouton Partager → **Sur l'écran d'accueil**.
